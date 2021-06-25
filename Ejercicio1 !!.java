@@ -3,3 +3,8 @@ Import java.util.Scanner;
 // si xde
 //esperoq se junten 
 
+Public class void main(){
+  Scanner teclado = new Scanner(System.in);
+  
+  
+  }
