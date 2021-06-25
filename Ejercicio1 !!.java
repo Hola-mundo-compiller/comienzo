@@ -9,10 +9,11 @@ Public class void main(){
   int  i = 0;
   int j = 0;
   new int = a[][];
+  System.out.println("Ingrese datos de la matriz");
   for (i = 0;i<=m;i++){
     System.out.print("[ ")
     for (j=0;j<=n;i++){
-      a[i][j] = j
+      a[i][j] = teclado.nextInt();
       System.out.print(a[i][j]," ")      
     }
     System.out.println("]")
