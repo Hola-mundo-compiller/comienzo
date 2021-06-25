@@ -5,9 +5,8 @@ Import java.util.Scanner;
 
 Public static void main(String args[]){
   Scanner teclado = new Scanner(System.in);
-  int a[][];
-  int  i = 0;
-  int j = 0;
+  int a[][], i = 0,m ,n ,j = 0;
+  
   a = new int [m+1][n+1];
   System.out.println("Ingrese [M*N] de la matriz");
   m = teclado.nextInt();
