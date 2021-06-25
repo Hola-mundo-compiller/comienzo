@@ -1,2 +1,5 @@
 Import java.util.Scanner;
-// we estamos juntoa :)
+// estamos juntoa :)
+// si xde
+//esperoq se junten 
+
