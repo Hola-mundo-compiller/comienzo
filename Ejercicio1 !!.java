@@ -5,6 +5,6 @@ Import java.util.Scanner;
 
 Public class void main(){
   Scanner teclado = new Scanner(System.in);
-  
+  int i=0
   
   }
