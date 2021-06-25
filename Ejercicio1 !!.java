@@ -3,20 +3,24 @@ Import java.util.Scanner;
 // si xde
 //esperoq se junten 
 
-Public class void main(){
+Public static void main(String args[]){
   Scanner teclado = new Scanner(System.in);
   int a[][];
   int  i = 0;
   int j = 0;
-  new int = a[][];
+  a = new int [m+1][n+1];
+  System.out.println("Ingrese [M*N] de la matriz");
+  m = teclado.nextInt();
+  n = teclado.nextInt();
+  
   System.out.println("Ingrese datos de la matriz");
   for (i = 0;i<=m;i++){
-    System.out.print("[ ")
+    System.out.print("[ ");
     for (j=0;j<=n;i++){
       a[i][j] = teclado.nextInt();
-      System.out.print(a[i][j]," ")      
+      System.out.print(a[i][j]," ");      
     }
-    System.out.println("]")
+    System.out.println("]");
   }
     
   }
