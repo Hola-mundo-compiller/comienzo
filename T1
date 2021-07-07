@@ -1,28 +1,31 @@
 import java.util.Scanner;
-public class Matriz_IMP{
+public class Imprimir_la_matriz {
     public static void main(String[] args) {
         Scanner dato = new Scanner(System.in);
         int M[][], N, i,j, valor; 
         System.out.println("ingrese el tañamo de matriz");
-        N=dato.nextInt();
-        M= new int [N+1][N+1];
+        N = dato.nextInt();
+        M = new int [N+1][N+1];
         for (i=1; i<=N; i++){
             for (j=1;j<=N; j++){
-                valor=dato.nextInt();
-                M[i][j]=valor;
+                System.out.print("A["+i+"]["+j+"]: ");
+                valor = dato.nextInt();
+                M[i][j] = valor;
             }
         }
-        impm(M[][],N,N)
-  public static void impm(int arr[][], int f, int c) {
-      Random r = new Random();
-      int i,j;
-      for (i=1;i<=f;i++) {
-          System.out.print("[ ");
-    	  for (j=1;j<=c;j++) {
-    		  System.out.print(" ",arr[][]);
-      	}
-        System.out.println(" ]);
-      }
-  }
+        System.out.println("\nA["+N+"*"+N+"] \n");
+        impm(M,N,N);
+        System.out.println("\n(⌐■_■)");
 }
+public static void impm(int arr[][], int f, int c) {
+    int i,j;
+    for (i=1;i<=f;i++) {
+        System.out.print("[");
+ 	for (j=1;j<=c;j++) {
+            System.out.print(" "+arr[i][j]);
+      	}
+        System.out.println(" ]");
+    }
+  }
+
 }
