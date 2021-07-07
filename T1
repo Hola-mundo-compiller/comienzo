@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Matriz_IMP{
+    public static void main(String[] args) {
+        Scanner dato = new Scanner(System.in);
+        int M[][], N, i,j, valor; 
+        System.out.println("ingrese el tañamo de matriz");
+        N=dato.nextInt();
+        M= new int [N+1][N+1];
+        for (i=1; i<=N; i++){
+            for (j=1;j<=N; j++){
+                valor=dato.nextInt();
+                M[i][j]=valor;
+            }
+        }
+        impm(M[][],N,N)
+  public static void impm(int arr[][], int f, int c) {
+      Random r = new Random();
+      int i,j;
+      for (i=1;i<=f;i++) {
+          System.out.print("[ ");
+    	  for (j=1;j<=c;j++) {
+    		  System.out.print(" ",arr[][]);
+      	}
+        System.out.println(" ]);
+      }
+  }
+
+        
+        
+    }
+    
+  }
